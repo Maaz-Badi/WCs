@@ -49,12 +49,67 @@
     \begin{parts}
         \part Can you cover all the squares of the WuShrek board by using SonicChika tiles?
         \begin{solution}
-            To prove that 
+            To prove that all the squares can be covered we need to prove that total number of 
+            boxes are even as we need to cover them with even nunbered tiles\\
+            number of tiles in the box = $n$ x $n$ = $n^{2}$
+            We need to prove that the total number of boxes are also even \\ 
+            assume n is even so $n$ = $2k$\\
+            $n^{2} = (2k)^{2}$ \\
+            $n^{2} = 4k^{2}$ \\
+            $n^{2} = 2(2k^{2})$ where r = $2k^{2}$ \\   
+            As we have proven that the number of tiles on the board are even so we can cover
+            the WuShrek board by using SonicChika tiles
         \end{solution}
         \part Suppose we remove the top left square of the WuShrek board. Can you still over all the remaining squares of the WuShrek using the SonicChika tiles?
+        \begin{solution}
+            To prove we need to prove the number of tiles are even after removing top left square of WuShrek board\\
+            Number of tiles in WuShrek board after removing= $n^{2}-1$ as we have only removed one block \\ 
+            assume n is even so $n$ = $2k$\\
+            $n^{2} = (2k)^{2}-1$ \\
+            $n^{2} = 4k^{2}-1$ \\
+            $n^{2} = 2(2k^{2})-1$ where r = $2k^2$
+            As we have proven that total number of tiles are not even then we can conclude that we can't 
+            cover WuShrek board by SonicChika tiles 
+        \end{solution}
         \part Suppose we remove the top left and the bottom left squares of the WuShrek board. Can you still over all the remaining squares of the WuShrek using the SonicChika tiles?
+        \begin{solution}
+            To prove we need to prove the number of tiles are even after removing top and bottom left square of WuShrek board\\
+            Number of tiles in WuShrek board removing= $n^{2}-2$ as we have only removed one block \\ 
+            assume n is even so $n$ = $2k$\\
+            $n^{2} = (2k)^{2}-$ \\
+            $n^{2} = 4k^{2}-2$ \\
+            $n^{2} = 2(2k^{2}-1)$ where r = $2k^{2}-1$\\
+            As we have proven that the number of tiles on the board are even but for this to hold true we need 
+            to make sure the two squares removed are not same i.e one is Shrek and one is Wu. In the above the tiles
+            removed are not same so we can conclude that We can replace the WuShrek board with SonicChika tiles after
+            removing top and bottom left tiles from the orignal board. 
+        \end{solution}
         \part Suppose we remove the top left and the bottom right squares of the WuShrek board. Can you still over all the remaining squares of the WuShrek using the SonicChika tiles?
+        \begin{solution}
+            To prove we need to prove the number of tiles are even after removing top left and bottom right square of WuShrek board\\
+            Number of tiles in WuShrek board after removing= $n^{2}-2$ as we have only removed one block \\ 
+            assume n is even so $n$ = $2k$\\
+            $n^{2} = (2k)^{2}-$ \\
+            $n^{2} = 4k^{2}-2$ \\
+            $n^{2} = 2(2k^{2}-1)$ where r = $2k^{2}-1$\\
+            As we have proven that the number of tiles on the board are even but for this to hold true we need 
+            to make sure the two squares removed are not same i.e one is Shrek and one is Wu. In the above example the tiles
+            removed are same so we can conclude that we can't replace the WuShrek board with SonicChika tiles after
+            removing top and bottom left tiles from the orignal board. 
+        \end{solution}
         \part If we remove a square with Shrek on it and a square with Wu on it from the WuShrek board (they can be any squares not necessarily adjacent), can you still cover all the remaining squares of the WuShrek using the SonicChika tiles?
+        \begin{solution}
+            To prove we need to prove the number of tiles are even after removing any one Wu and Shrek tiles of WuShrek board\\
+            Number of tiles in WuShrek board after removing  = $n^{2}-2$ as we have only removed one block \\ 
+            assume n is even so $n$ = $2k$\\
+            $n^{2} = (2k)^{2}-$ \\
+            $n^{2} = 4k^{2}-2$ \\
+            $n^{2} = 2(2k^{2}-1)$ where r = $2k^{2}-1$\\
+            As we have proven that the number of tiles on the board are even but for this to hold true we need 
+            to make sure the tiles do not create a situation where two same tiles are adjacent i.e. Wu tile is not next to Wu
+            In the above example we can't guarantee that no two same tiles will be adjacent so we can conclude that that we can't 
+            replace WuShrek board with SonicChika tiles after removing any two different tiles from the board. 
+        \end{solution}
     \end{parts}
 
 \end{questions}
