@@ -10,3 +10,4 @@ The task for this challenge is explained in the accompanying LaTeX file.
 For discussion on the challenge, please use the related Canvas discussion thread.
 
 Live long and prosper 🖖🏽
+# WCs
